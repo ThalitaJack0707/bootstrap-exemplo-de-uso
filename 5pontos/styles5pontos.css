@@ -1,0 +1,44 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.custom-form {
+    background: linear-gradient(145deg, #eac4ff, #add4ee);
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.col-sm-4.custom-form {
+    margin-top: 120px;
+}
+
+.form-label {
+    color: #fff;
+}
+
+.custom-icon {
+    background-color: #c175f3;
+    border: none;
+}
+
+
+
+.btn.btn-primary.custom-button {
+    background: linear-gradient(145deg, #6697f4, #829cfb);
+    padding: 0.15rem 148px;
+    border-radius: 15px;
+    border: none;
+}
+h2 {
+    text-align: center;
+    color: #684cce;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -10px;
+}
+
+.CEP ,.Rua , .city {
+    color: rgb(49, 23, 163);
+}
