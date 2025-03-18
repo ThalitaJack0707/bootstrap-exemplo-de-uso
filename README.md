@@ -40,15 +40,15 @@ Esse projeto está licenciado sob a licença **MIT**. Veja o arquivo LICENSE par
 
 1. *Exemplo de Botões*:
 
-![botões](Captura%20de%20tela%202025-02-18%20135447.png)
+![botões](botões.png)
 
 2. *Exemplo de Card*:
 
-![cards](Captura%20de%20tela%202025-02-18%20135553.png)
+![cards](cards.png)
 
 3. *Exemplo de tela de login*:
 
-![login](Captura%20de%20tela%202025-02-18%20135855.png)
+![login](login.png)
 
 
 ## Contato 📬
