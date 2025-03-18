@@ -1,121 +1,117 @@
+
 /* Define uma fonte padrão para todos os elementos */
-* {
+{
     font-family: 'Montserrat', sans-serif;
 }
 
 /* Estilos gerais para o corpo da página */
-body{
-    background-color: #252525; /* Cor de fundo do corpo*/
-    color: #FFF;/* Cor do texto */
+body {
+    background-color: #252525;
+    color: #FFF;
 }
 
-/* Classes para diferentes cores de fundo */
-.primary-bg-color{
+/* Classes para diferentes core de fundo */
+.primary-bg-color {
     background-color: #252525;
 }
-.destaque{
+
+.destaque {
     background-color: #0D0D0D;
 }
-.secondary-bg-color{
-    background-color: #976df2;
+
+.secondary-bg-color {
+    background-color: #976DF2;
 }
-.light-bg-color{
-    background-color: #fcf5eb;
+
+.light-bg-color {
+    background-color: #FCF5EB;
 }
-.dark-bg-color{
+
+.dark-bg-color {
     background-color: #0D0D0D;
 }
 
 /* Classes para diferentes cores de texto */
-.primary-color{
-    color: #976df2;
+.primary-color {
+    color: #976DF2;
 }
-.secondary-color{
-    color: #f2f2f2;
+
+.secondary-color {
+    color: #F2F2F2;
 }
-.light-color{
-    color: #fcf5eb;
+
+.light-color {
+    color: #FCF5EB;
 }
+
 
 /* ___________________________________________________________ */
-/* Estilos para a barra de navegação (navbar) */
+/* Estilos para barra de navegação (navbar) */
 
-/* Ajusta a direção de alinhamento dos itens da barra de navegação */
-#navbar .navbar-nav{
+/* Ajusta a direção e alinhamento dos itens da barra de navegação */
+#navbar .navbar-nav {
     flex-direction: row;
     justify-content: flex-end;
 }
 
 /* Define margem à esquerda para os itens da barra de navegação */
-#navbar .navbar-nav li{
-    margin-left: 1em;
+#navbar .navbar-nav li {
+    margin-left: 1rem;
 }
 
 /* Define a cor do texto e links na barra de navegação */
 #navbar a,
-#navbar button{
+#navbar button {
     color: #FFF;
 }
 
-/* Ajusta a posição dos itens da barra de navegação */
-#navbar li{
+/* Ajusta posiçao dos itens da barra de navegação */
+#navbar li {
     position: relative;
 }
 
 /* Define estilo para ícones na barra de navegação */
-#navbar i{
+#navbar i {
     font-size: 20px;
 }
 
 /* Define estilo de cor quando o mouse passa sobre os ícones */
-#navbar i:hover{
-    color: #976df2;
+#navbar i:hover {
+    color: #976DF2;
 }
 
 /* Define estilo para caixa com número (ex: quantidade de itens) */
-#navbar span{
+#navbar span {
     position: absolute;
     top: -8px;
     right: -8px;
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #ef3636;
+    background-color: #EF3636;
     text-align: center;
 }
 
 /* Posiciona a caixa com número no item de sacola de compras */
-#bag-item span{
+#bag-item span {
     left: 20px;
 }
 
 /* Estilos para a marca/logo na barra de navegação */
-.navbar-brand{
+.navbar-brand {
     font-weight: 700;
     width: 100%;
     text-align: center;
 }
 
-/* Estilo de hover para links 'sobre' */
-.sobre a:hover{
+/* Estlo de hover para links 'sobre' */
+.sobre a:hover {
     color: #0D0D0D !important; /* Importante para sobrepor outros estilos*/
 }
 
 /* Ajusta estilo quando a largura da tela é maior que 768px */
 @media(min-width: 768px) {
-    .navbar-brand{
-        text-align: left;
-    }
-}
-
-/* Ajusta o espaçamento entre itens da barra de navegação */
-#navbar-items{
-    justify-content: space-between;
-}
-
-/* Ajusta espaçamento quando a largura da tela é maior que 768px */
-@media(min-width: 768px) {
-    #navbar-items{
+    #navbar-items {
         display: flex;
         min-width: 80%;
     }
@@ -125,11 +121,11 @@ body{
 #search-form,
 #news-form {
     width: 100%;
-    margin: 2em 0;
+    margin: 2rem 0;
 }
 
-/* Ajusta largura e margem quando a largura da tela é maior que 768px */
-@media(max-width: 768px){
+/* Ajusta a largura e margem quando a largura da tela é amio que 768px */
+@media(min-width: 768px) {
     #search-form,
     #news-form {
         width: 50%;
@@ -137,50 +133,51 @@ body{
     }
 }
 
-/* Estilos para compos de input em formulários */
-#search-form ,
-#news-form{
-    border: 2px solid #f2f2f2;
+/* Estilos para campos de input em formulários */
+#search-form,
+#news-form {
+    border: 2px solid #F2F2F2;
     border-radius: 3px;
     padding: 5px 15px;
 }
 
-/* Estilos para campos de input quando focados*/
+/* Estilos para campos de input quando focados */
 #search-form input,
-#news-form input{
+#news-form input {
     background-color: transparent;
     border: none;
-    color: #fff;
+    color: #FFF;
 }
 
 /* Estilos para campos de input quando focados */
 #search-form input:focus,
-#news-form input:focus{
+#news-form input:focus {
     box-shadow: none;
 }
 
 /* Estilos para placeholders em campos de input */
 #search-form input::placeholder,
-#news-form input::placeholder{
+#news-form input::placeholder {
     color: #FFF;
 }
 
-/* ______________________________________________________ */
+/* ___________________________________________________________ */
 /* Estilos para a barra de navegação inferior (bottom-navbar) */
 
 /* Ajusta a posição dos itens na barra de navegação inferior */
-#bottom-navbar-container .container{
+#bottom-navbar-container .container {
     justify-content: flex-end;
 }
 
-#bottom-navbar-container a{
+/* Define cor de texto e links na barra de navegação inferior */
+#bottom-navbar-container a {
     color: #FFF;
     font-weight: 600;
 }
 
 /* Define tamanho do ícone do botão para mostrar/esconder o menu */
-.navbar-toggler{
-    font-size: 1.5em;
+.navbar-toggler {
+    font-size: 1.5rem;
 }
 
 /* ESTILO PARA BANNERS */
@@ -464,4 +461,161 @@ body{
     height: 150px;
     width: 90px;
     margin: 2rem auto;
+}
+
+/* Gallery */
+
+/* Estilos para os containers das imagens */
+#gallery .image-cotainer{
+    background-size: cover;
+    background-position: center;
+    height: 225px;
+    cursor: pointer;
+    transition: .5s;
+    border: 3px solid #0D0D0D;
+}
+
+/* Estilos ao passar o mouse sobre as imagens */
+#gallery .image-cotainer:hover{
+    border-color: #976DF2;
+}
+
+/* Define a imagem de fundo para cada container */
+#instal1{
+    background-image: url('../img/insta1.jpg');
+}
+
+#instal2{
+    background-image: url('../img/insta2.jpg');
+}
+
+#instal3{
+    background-image: url('../img/insta3.jpg');
+}
+
+#instal4{
+    background-image: url('../img/insta4.jpg');
+}
+
+#instal5{
+    background-image: url('../img/insta5.jpg');
+}
+
+#instal6{
+    background-image: url('../img/insta6.jpg');
+}
+
+/* Footer */
+
+/* Estilos para a linha que separa os links do rodapé */
+#footer-links-container{
+    border-bottom: 1px solid #F2F2F2;
+}
+
+/* Estilos para a linha que separa os links do rodapé */
+#footer .footer-column {
+    padding: 2em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* Estilos para as colunas do rodapé em telas maiores */
+@media(min-width: 795px){
+    #footer .footer-column {
+        padding: 5em 2em;
+    }
+}
+
+/* Estilos para os titulos das colunas de links no rodapé */
+#footer-links-containder h3 {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+/* Estilos para os intens de lista nos links do rodapé */
+#footer-links-container li {
+    font-size: .8em;
+    text-align: center;
+}
+
+/* Estilos ao passar o mouse sobre os links do rodapé */
+#footer-links-container li a {
+    text-decoration: none;
+}
+
+/* Estilos ao passar o mouse sobre os links nos itens de lista do rodapé */
+#footer-links-container a:hover {
+    color: #976DF2;
+}
+
+/* Estilos para a coluna centrl no rodapé */
+#footer-center{
+    border-left: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2;
+}
+
+/* Estilos para o titulo da coluna central no rodapé */
+#footer-center h3 {
+    font-weight: 900;
+}
+
+/* Estilos para o número de telefone na coluna central do rodapé */
+#footer-center .store-phone{
+    color: #976DF2;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: -15px;
+}
+
+/* NEWS */
+
+/* Estilos para o container da seção de newsletter */
+#newsletter-container{
+    background-color: #0D0D0D;
+    border-bottom: 1px solid #F2F2F2;
+    text-align: center;
+    padding: 20px;
+}
+/* Estilos para o formulários de inscrição na newletter */
+#news-form{
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+/* Estilos para ícone no formulário de inscrição */
+#news-form i {
+    font-size: 1.5em;
+}
+
+/* Estilos para botão no formulário de inscrição */
+#news-form .btn{
+    color: #FFF;
+}
+
+/* Estilos para o container das redes sociais */
+#social-container{
+    margin: 20px auto;
+}
+
+/* Estilos ao passar os ícones de redes sociais */
+#social-container i{
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    color: #F2F2F2;
+    transition: .3s;
+}
+
+/* Estilos ao passar o mouse sobre os ícones de redes sociais */
+#social-container i:hover{
+    color: #976DF2;
+}
+
+/* copy */
+
+/* Estilos para o container de direitos autorais */
+#copy-container {
+    text-align: center;
+    padding: 30px;
 }

@@ -28,89 +28,74 @@
   
 </head>
 <body>
-  <!-- NAVBAR -->
-  <!-- Primira Barra de navegação -->
+  <  <!-- NAVBAR -->
+  <!-- Primeira barra de navegação -->
   <nav class="navbar navbar-expand-lg destaque py-4 px-2" id="navbar">
     <div class="container">
-      <!-- Marca ou logo -->
-      <a class="navbar-brand" href="#">PerfectWatch</a>
+      <!-- Marca/Logo -->
+       <a class="navbar-brand" href="#">PerfectWatch</a>
 
-      <!-- Itens da barra de navegação -->
-      <div id="navbar-items">
-        <div></div> <!-- Espaço vazio, usado para fazer a divisão de layout -->
-        
-        <!-- Formulário de Busca -->
-        <form class="d-flex" id="search-form">
-          <i class="bi bi-search primary-color"></i><!-- Ícone de pesquisa -->
-          <input class="form-control me-2" type="search" placeholder="Busque o seu relógio..." aria-label="Search">
-          <button class="btn secondary-bg-color" type="submit">Pesquisar</button>
-        </form>
+       <!-- Itens da barra de navegação -->
+        <div id="navbar-items">
+          <div></div> <!-- Espaço vazio, usado para fazer a divisão do layout-->
 
-        <!-- Ícones da barra de navegação -->
-        <ul class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="bi bi-person"></i> <!--link para perfil do usuário -->
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="bi bi-heart"></i> <!--link para favoritos -->
-            </a>
-            <span class="qty-info">5</span> <!-- Quantidade de itens (ex: favoritos) -->
-          </li>
-          <li class="nav-item" id="bag-item">
-            <a class="nav-link" href="#">
-              <i class="bi bi-bag"></i> <!--link para o carrinho -->
-              <b>R$ 1290,12</b> <!-- Valor total do carrinho-->
-            </a>
-            <span class="qty-info">8</span> <!-- Quantidade de itens no carrinho-->
-          </li>
-        </ul>
-      </div>
+          <!-- Formulário de Busca -->
+           <form class="d-flex" id="search-form">
+            <i class="bi bi-search primary-color"></i> <!-- Ícone de pesquisa -->
+            <input class="form-control me-2" type="search" placeholder="Busque o seu relógio..." aria-label="Search">
+            <button class="btn secondary-bg-color" type="submit">Pesquisar</button>
+           </form>
+
+           <!-- Ícones da barra de navegação -->
+           <ul class="navbar-nav mb-3 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="bi bi-person"></i> <!-- Link para Perfil do usuário -->
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="bi bi-heart"></i> <!-- Link para Favoritos -->
+              </a>
+              <span class="qty-info">5</span> <!-- Quantiade de itens (ex: favoritos)-->
+            </li>
+            <li class="nav-item" id="bag-item">
+              <a class="nav-link" href="#">
+                <i class="bi bi-bag"></i> <!-- Link para Carrinho -->
+                <b>R$ 1290,12</b> <!-- Valor total do carrinho -->
+              </a>
+              <span class="qty-info">8</span> <!-- Quantidade de itens no carrinho-->
+            </li>
+           </ul>
+        </div>
     </div>
-  </nav>
+  </nav> 
 
-  <!-- Barra de Navegação Inferior -->
+  <!-- Barra de navegação inferior -->
   <nav class="navbar navbar-expand-lg secondary-bg-color p-2" id="bottom-navbar-container">
     <div class="container">
-      <!-- Botão para mostrar/esconder o menu -->
+      <!-- Botão para mostrar/esconder o meu -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottom-navbar" aria-controls="bottom-navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="bi bi-list"></i> <!-- Ícone de lista (para menu mobile)-->
+        <i class="bi bi-list"></i> <!-- Ícone de lista (para menu mobile) -->
       </button>
 
       <!-- Itens do menu de navegação inferior -->
       <ul class="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
         <li class="nav-item sobre">
-          <a class="nav-link" href="#">
-            Home
-          </a>
+          <a class="nav-link" href="#">Home</a>
         </li>
         <li class="nav-item sobre">
-          <a class="nav-link" href="#">
-            Produtos
-          </a>
+          <a class="nav-link" href="#">Produtos</a>
         </li>
         <li class="nav-item sobre">
-          <a class="nav-link" href="#">
-            Promoções
-          </a>
+          <a class="nav-link" href="#">Blog</a>
         </li>
         <li class="nav-item sobre">
-          <a class="nav-link" href="#">
-            Blog
-          </a>
-        </li>
-        <li class="nav-item sobre">
-          <a class="nav-link" href="#">
-            Contato
-          </a>
+          <a class="nav-link" href="#">Contato</a>
         </li>
       </ul>
     </div>
   </nav>
-
-
   <!-- Banners -->
   <div class="container" id="banners-container">
     <div id="slider" class="carousel slide" data-bs-ride="carousel">
@@ -171,7 +156,6 @@
       </div>
     </div>
   </div>
-
 
   <!-- BESTSELLERS -->
   <div class="container" id="best-sellers">
@@ -371,6 +355,74 @@
     </div>
   </div>
 </div>
+
+<!-- Gallery -->
+<div class="container-fluid" id="gallery">
+  <div class="row">
+    <div class="col-6 col-md-2 image-container" id="insta1"></div>
+    <div class="col-6 col-md-2 image-container" id="insta2"></div>
+    <div class="col-6 col-md-2 image-container" id="insta3"></div>
+    <div class="col-6 col-md-2 image-container" id="insta4"></div>
+    <div class="col-6 col-md-2 image-container" id="insta5"></div>
+    <div class="col-6 col-md-2 image-container" id="insta6"></div>
+  </div>
+ </div>
+
+ <!-- Footer -->
+  <footer id="footer">
+    <div class="container-fluid" id="footer-links-container">
+      <div class="row">
+        <!-- Coluna para links de página -->
+        <div class="col-12 col-md-4 footer-column">
+          <h3>Páginas</h3>
+          <!-- Lista de links de páginas -->
+           <ul class="list-unstyled">
+              <li class="mb-2"><a href="#" class="secondary-color">Home</a></li>
+              <li class="mb-2"><a href="#" class="secondary-color">Categorias</a></li>
+              <li class="mb-2"><a href="#" class="secondary-color">Promoções</a></li>
+              <li class="mb-2"><a href="#" class="secondary-color">Contato</a></li>
+           </ul>
+        </div>
+        <div class="col-12 col-md-4 footer-column" id="footer-center">
+          <h3>PerfectWatch</h3>
+          <p class="secondary-color">Alguma dúvida? Ligue para nós!</p>
+          <p class="store-phone"><i class="bi bi-telephone"></i>(50) 4002-8922</p>
+        </div>
+        <div class="col-12 col-md-4 footer-column">
+          <h3>Informações</h3>
+          <ul class="list-unstyled">
+            <li class="md-2"><a href="#" class="secondary-color">Política de Entregas</a></li>
+            <li class="md-2"><a href="#" class="secondary-color">Rastreie seu pedido</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Seção para a newsletter -->
+     <div class="container-fluid" id="newsletter-container">
+      <div class="col-12">
+      <div class="row">
+        <p class="secondary-color">Se inscreva na nossa Newsletter:</p>
+
+        <form class="d-flex" id="news-form">
+          <i class="bi bi-envelope primary-color"></i>
+          <input class="form-control me-2" placeholder="Insira seu e-mail">
+          <button class="btn secondary-bg-color" type="submit">Enviar</button>
+        </form>
+      </div>
+      </div>
+      <!-- Icones de redes sociais -->
+       <div class="col-12" id="social-container">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-youtube"></i>
+        <i class="bi bi-twitter"></i>
+       </div>
+     </div>
+     <!-- Texto de direitos autorais -->
+     <div class="container" id="copy-container">
+      <p>Alguns direitos reservados @2023 <span class="primary-color">PerfectWatch</span>- A sua loja de relógios</p>
+     </div>
+  </footer>
 
 
 
